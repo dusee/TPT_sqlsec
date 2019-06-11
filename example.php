@@ -29,3 +29,8 @@ $var3 = $SS->ss_Int_mm($var3, "0", "10", "1");
 
 $var = "<script>alert('Hello, world!');</script>";
 $var = SS::ss_HTML($var);
+
+// Пример метода ss_Trans
+
+$var = "ТЕКСТ по РУССКИ";
+$var = $SS->ss_Trans($var);
